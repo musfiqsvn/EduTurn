@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="আলোকিত বিদ্যানিকেতন লোগো">
+  <defs>
+    <linearGradient id="abLogoBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1463C4"/>
+      <stop offset="1" stop-color="#062A5B"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#abLogoBg)"/>
+  <g stroke="#7FC4F2" stroke-width="2.6" stroke-linecap="round">
+    <path d="M32 8.5v3.4"/>
+    <path d="M20.7 13.4l2.4 2.4"/>
+    <path d="M43.3 13.4l-2.4 2.4"/>
+  </g>
+  <circle cx="32" cy="22" r="6.2" fill="#7FC4F2"/>
+  <path d="M13 34.5c6.3-3.7 12.7-3.7 19 0 6.3-3.7 12.7-3.7 19 0V49c-6.3-3.7-12.7-3.7-19 0-6.3-3.7-12.7-3.7-19 0z" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M32 34.5V49" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,27 @@
+/*
+Theme Name: EduTurn
+Theme URI: https://uturndigital.com.bd/products/uturn-edu
+Author: UTurn Digital Solutions
+Author URI: https://uturndigital.com.bd
+Description: EduTurn — a feature-packed, all-in-one School Management System with built-in School ERP for schools & colleges. Complete SMS (staff/teacher/student governance, attendance, routines, results, fees) plus powerful ERP dashboards: role-based portals, admissions pipeline, notices/events/news, downloads, achievements, modular drag-and-drop homepage, global palette & typography control, live geo-location topbar, auto-scrolling notice ticker, and 1:1 pixel-faithful Bengali/English frontend. Zero dependencies — no plugins required.
+Version: 1.21.2
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 7.4
+License: Proprietary — (c) UTurn Digital Solutions. All rights reserved.
+License URI: https://uturndigital.com.bd/license
+Text Domain: eduturn
+Domain Path: /languages
+Tags: education, custom-menu, custom-logo, featured-images, full-width-template, theme-options, translation-ready
+*/
+
+/*
+ * EduTurn — architecture note
+ * ------------------------------------------------------------------
+ * This root stylesheet carries ONLY the WordPress theme header.
+ * The pixel-faithful frontend stylesheet (ported 1:1 from the static
+ * source) lives at assets/css/eduturn.css and is enqueued by
+ * inc/assets.php together with the dynamic :root palette override
+ * generated from the EduTurn dashboard (colors & typography).
+ * ------------------------------------------------------------------
+ */

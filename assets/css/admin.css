@@ -1,0 +1,13 @@
+/* EduTurn — Dashboard + SMS screen styling. */
+.eduturn-dashboard h1 { font-weight: 800; }
+#eduturn-section-sorter { max-width: 560px; }
+#eduturn-section-sorter li {
+  display: flex; align-items: center; gap: 10px;
+  background: #fff; border: 1px solid #c3c4c7; border-radius: 8px;
+  padding: 9px 12px; margin-bottom: 8px; cursor: grab;
+}
+#eduturn-section-sorter li:hover { border-color: #0B4EA8; }
+#eduturn-section-sorter .dashicons-move { color: #787c82; }
+#eduturn-section-sorter label { font-weight: 600; display: flex; align-items: center; gap: 8px; }
+.eduturn-meta th { width: 220px; }
+.form-card .login-username label, .form-card .login-password label { display: block; margin-bottom: 4px; font-weight: 600; }

@@ -1,0 +1,29 @@
+/* EduTurn — portal login card + credits (v1.12.0). */
+.ut-loginwrap{display:flex;max-width:880px;margin:30px auto;border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(11,42,91,.25);background:#fff}
+.ut-login-side{flex:1;background:linear-gradient(160deg,#0b2a5b,#14489b 60%,#1b7fc2);color:#fff;padding:38px 32px;position:relative;display:flex;flex-direction:column}
+.ut-login-logo{border-radius:18px;background:#fff;padding:6px}
+.ut-login-eduturn{max-width:210px;width:100%;height:auto;margin-bottom:14px}
+#login h1 a{background-image:url(../images/eduturn-logo.png);background-size:contain;background-position:center;background-repeat:no-repeat;width:230px;height:152px;margin-bottom:8px}
+.ut-login-side h2{margin:14px 0 6px;font-size:24px}
+.ut-login-side p{opacity:.9;margin:0 0 14px}
+.ut-login-points{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.ut-login-points li::before{content:"✓ ";font-weight:700}
+.ut-login-wave{position:absolute;bottom:0;left:0;width:100%;height:60px}
+.ut-login-main{flex:1;padding:38px 34px}
+.ut-login-main h3{margin:0 0 16px;font-size:21px;color:#0b2a5b}
+.ut-login-main label{font-weight:600;color:#14324a;font-size:14px}
+.ut-login-main .input{width:100%;border:1.5px solid #c9dbef;border-radius:10px;padding:10px 12px;font-size:15px;background:#f4f8fd;margin:4px 0 12px;box-sizing:border-box}
+.ut-login-main .button-primary{background:#14489b;border:0;border-radius:10px;padding:10px 26px;font-size:16px;cursor:pointer;color:#fff}
+.ut-login-main .button-primary:hover{background:#2f7fe0}
+.ut-login-err{background:#ffe7e4;border:1px solid #f1a19a;color:#b42318;border-radius:10px;padding:9px 13px;margin-bottom:14px;font-size:14px}
+.ut-login-hint{font-size:13.5px;color:#5b6b8c}
+.ut-login-alt{font-size:14px;color:#5b6b8c;margin-top:14px}
+.ut-pwtoggle{margin-left:8px;background:#e8f3ff;border:1px solid #d7e3f5;border-radius:8px;padding:4px 12px;cursor:pointer;font-size:13px}
+/* Credits */
+.ut-login-credit{text-align:center;padding:10px 0 26px}
+.ut-login-credit .utd-credit span{color:#b9cdf0}
+.ut-login-credit .utd-credit img{max-width:170px}
+.ut-login-credit.light .utd-credit span{color:#5b6b8c}
+.utd-credit{font-size:13px}
+.utd-credit span{display:block;margin-bottom:4px}
+@media(max-width:760px){.ut-loginwrap{flex-direction:column;margin:16px}.ut-login-side{padding:28px 24px}}
